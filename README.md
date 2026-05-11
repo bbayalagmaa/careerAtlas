@@ -2,7 +2,11 @@
 ### Global Data Science Career Path Analyzer
 **AUM Capstone Project · Spring 2025**
 
-PPP-adjusted salary explorer for international data science careers, powered by the Big Mac Index and a local ML CV analyzer.
+---
+
+## Description
+
+CareerAtlas is a data science career tool that compares salaries across 15 countries using PPP (Purchasing Power Parity) adjustment via the Big Mac Index — because raw USD numbers are misleading for international students. Upload your CV and a local ML pipeline (RandomForest + KMeans + TF-IDF) extracts your skills, infers your role, predicts your career cluster, and recommends the best countries for your profile with PPP-adjusted salary estimates.
 
 ---
 
