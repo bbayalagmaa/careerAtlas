@@ -255,12 +255,9 @@ def country_reason(country_code: str, role_title: str, exp_label: str) -> str:
 # ── FastAPI app ────────────────────────────────────────────────────────────────
 app = FastAPI(title="CareerAtlas ML API", version="2.0.0")
 
-import os
-_ORIGINS = os.getenv("ALLOWED_ORIGINS", "http://localhost:5173,http://localhost:4173").split(",")
-
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"] if "*" in _ORIGINS else _ORIGINS,
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
