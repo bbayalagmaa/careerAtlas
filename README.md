@@ -8,13 +8,22 @@ PPP-adjusted salary explorer for international data science careers, powered by 
 
 ## Live Demo
 
-> Add your Vercel URL here after deployment
+**[https://career-atlas-sbzu.vercel.app](https://career-atlas-sbzu.vercel.app)**
+
+| Service | URL |
+|---|---|
+| Frontend (Vercel) | https://career-atlas-sbzu.vercel.app |
+| ML Backend (Render) | https://careeratlas.onrender.com |
 
 ---
 
 ## Screenshots
 
-> Add screenshots after deployment (Salary Explorer, CV Analyzer result)
+**Salary Explorer — PPP-adjusted salaries across 15 countries**
+![Salary Explorer](screenshots/explorer.png)
+
+**CV Analyzer — ML-powered career analysis with country recommendations**
+![CV Analyzer Result](screenshots/cv-result.png)
 
 ---
 
